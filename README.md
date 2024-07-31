@@ -2,6 +2,7 @@
 qnap TS-AI642 固件版本5.18测试完成   
 实测 硬件rock-5c 3582 8g内存 安装 qnap TS-AI642 5.18  
 qnap下的Ubuntu22.04 桌面和chromium观看视频很流畅  
+![all](https://github.com/wxzmz/qnap-rk3588-ubuntu/blob/main/jpeg/all.jpg)   
 
 2个文件
 
