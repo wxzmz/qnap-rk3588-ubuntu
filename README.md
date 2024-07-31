@@ -13,7 +13,7 @@ https://launchpad.net/~liujianfeng1994/+archive/ubuntu/rockchip-multimedia
 ## 一.安装补丁流程
 ####  1.1 先自行安装Ubuntu Linux Station 3.4.3.548  
 >**ps 安装完成后 先停止Ubuntu Linux Station 再安装补丁**   
-![stop](https://github.com/wxzmz/qnap-arm-ubuntu/blob/main/jpeg/stop.jpg)  
+![stop](https://github.com/wxzmz/qnap-rk3588-ubuntu/tree/main/jpeg)  
  先停止 Ubuntu Linux Station,不先安装Ubuntu22.04   
  把fix-qnap-ubuntu上传进qnap目录,加上执行权限,admin权限执行
 
