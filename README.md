@@ -25,19 +25,10 @@ https://launchpad.net/~liujianfeng1994/+archive/ubuntu/rockchip-multimedia
 
 >先停止 Ubuntu Linux Station,不先安装Ubuntu22.04
 
-qnap系统下
+qnap系统下 admin/root权限执行
 
-下载fix-qnap-ubuntu admin/root权限执行
 ```Shell 
 curl https://raw.githubusercontent.com/wxzmz/qnap-rk3588-ubuntu/main/fix-qnap-ubuntu -o fix-qnap-ubuntu && chmod +x fix-qnap-ubuntu && ./fix-qnap-ubuntu
-```
-
-或者把
- 把fix-qnap-ubuntu上传进qnap目录,加上执行权限,admin/root权限执行
-
-```Shell 
-chmod +x ./fix-qnap-ubuntu  
-./fix-qnap-ubuntu
 ```
 >
   
