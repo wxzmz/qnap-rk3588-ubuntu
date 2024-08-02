@@ -30,6 +30,12 @@ qnap系统下 admin/root权限执行
 ```Shell 
 curl https://raw.githubusercontent.com/wxzmz/qnap-rk3588-ubuntu/main/fix-qnap-ubuntu -o fix-qnap-ubuntu && chmod +x fix-qnap-ubuntu && ./fix-qnap-ubuntu
 ```
+
+修复container-station启动bug  
+```Shell 
+/sbin/setcfg  "container-station" "Volume_Select" "1" -f /etc/config/qpkg.conf
+```
+
 >
   
 #### 1.2 fix-qnap-ubuntu完成后,启动Ubuntu Linux Station,安装Ubuntu22.04  
