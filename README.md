@@ -20,7 +20,10 @@ https://launchpad.net/~liujianfeng1994/+archive/ubuntu/rockchip-multimedia
 
 ## 一.安装补丁流程
 ####  1.1 先自行安装Ubuntu Linux Station 3.4.3.548  
->**ps 安装完成后 先停止Ubuntu Linux Station 再安装补丁**   
+
+先安装Container Station 容器工作站,打开Container一次,再安装Ubuntu Linux Station  
+
+>**ps Ubuntu Linux Station安装完成后 先停止Ubuntu Linux Station 再安装补丁**   
 ![stop](https://github.com/wxzmz/qnap-rk3588-ubuntu/blob/main/jpeg/stop.jpg)  
 
 >先停止 Ubuntu Linux Station,不先安装Ubuntu22.04
@@ -38,12 +41,16 @@ curl https://raw.githubusercontent.com/wxzmz/qnap-rk3588-ubuntu/main/fix-qnap-ub
 
 >
   
-#### 1.2 fix-qnap-ubuntu完成后,启动Ubuntu Linux Station,安装Ubuntu22.04  
+#### 1.2 再启动Ubuntu Linux Station,安装Ubuntu22.04  
 >Ubuntu22.04安装完成后 远程桌面/键鼠 进入Ubuntu22.04 桌面  
 打开终端 sudo -i,输入密码,root权限下执行mesa-vpu.sh  
 >
+
 ```Shell 
 sudo -i  
+```
+
+```Shell  
 curl https://raw.githubusercontent.com/wxzmz/qnap-rk3588-ubuntu/main/mesa-vpu.sh | bash -  
 ```
   
