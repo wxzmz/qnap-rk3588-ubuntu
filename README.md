@@ -62,7 +62,9 @@ curl https://raw.githubusercontent.com/wxzmz/qnap-rk3588-ubuntu/main/mesa-vpu.sh
 
 ![chrom](https://github.com/wxzmz/qnap-rk3588-ubuntu/blob/main/jpeg/chrom.jpg)
 
-ps: 经测试 必须链接hdmi接口 ,否则还是软解
+#### ps:   
+#### 1.经测试 必须链接hdmi接口 ,否则还是软解  
+#### 2.关闭远程桌面能大幅降低cpu负载  
 
 
 
